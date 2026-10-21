@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wisata Benteng Pendem Cilacap - Kontak</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Benteng Pendem</div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      ☰
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Beranda</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="kontak.html" class="active">Kontak</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h2 class="section-title">Hubungi Kami</h2>
+      <div class="contact-wrapper">
+        <form id="contactForm" class="contact-form">
+          <div class="form-group">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Masukkan email Anda" required>
+          </div>
+          <div class="form-group">
+            <label for="pesan">Pesan / Pertanyaan</label>
+            <textarea id="pesan" name="pesan" rows="5" placeholder="Tuliskan pesan Anda di sini..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Kirim Pesan</button>
+        </form>
+        <div id="formNotification" class="notification hidden"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 Wisata Benteng Pendem Cilacap. Proyek Kolaboratif Kelompok.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
